@@ -7,12 +7,10 @@
 
 using namespace std;
 
-//.to_ullong converts to binary code
-
 int main() {
 	//Fahrenheit to celsius
 	cout << "Fahrenheit to Celsius converter!" << endl;
-	cout << "Enter the Farhrenheit value: ";
+	cout << "Enter the Fahrenheit value: ";
 	double Fahrenheit;
 	cin >> Fahrenheit;
 
@@ -21,7 +19,7 @@ int main() {
 	}
 	else {
 		double Celsius{ (Fahrenheit - 32) / 1.8 };
-		cout << "The Celsius eqivalent is: " << Celsius << endl;
+		cout << "The Celsius equivalent is: " << Celsius << endl;
 		cout << " " << endl;
 	}
 	
@@ -76,7 +74,7 @@ int main() {
 	int number_2{ rand() % (min_value - max_value + 1) + min_value };
 	int added_num{ number_1 + number_2 };
 	cout << number_1 << ',' << number_2 << endl;
-	cout << "Youre total move is: " << added_num << endl;
+	cout << "Your total move is: " << added_num << endl;
 
 	cout << " " << endl;
 	
@@ -112,10 +110,10 @@ int main() {
 	int principle; 
 	cin >> principle;
 
-	cout << "Annual Intrest Rate: ";
-	float annual_intrest;
-	cin >> annual_intrest;
-	float monthly_intrest = annual_intrest / PERCENT / MONTHS_IN_YEARS;
+	cout << "Annual Interest Rate: ";
+	float annualInterest;
+	cin >> annualInterest;
+	float monthly_interest = annualInterest / PERCENT / MONTHS_IN_YEARS;
 
 	cout << "Period in years: ";
 	int years;
@@ -123,7 +121,7 @@ int main() {
 	int num_of_payments = years * MONTHS_IN_YEARS;
 
 	double Mortgage = principle
-		* (monthly_intrest * pow(1 + monthly_intrest, num_of_payments))
-		/ (pow(1 + monthly_intrest, num_of_payments) - 1);
+		* (monthly_interest * pow(1 + monthly_interest, num_of_payments))
+		/ (pow(1 + monthly_interest, num_of_payments) - 1);
 	cout << "Mortgage: $" << Mortgage;
 }
