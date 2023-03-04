@@ -1,0 +1,3 @@
+C:/Users/stewl3/OneDrive/Documents/Code/MathSolver (C++)/MathSolver/cmake-build-debug/CMakeFiles/MathSolver.dir
+C:/Users/stewl3/OneDrive/Documents/Code/MathSolver (C++)/MathSolver/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/stewl3/OneDrive/Documents/Code/MathSolver (C++)/MathSolver/cmake-build-debug/CMakeFiles/rebuild_cache.dir

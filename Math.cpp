@@ -48,6 +48,7 @@ int main() {
 	cout << "The Pythagorean Theorem!" << endl;
 	cout << "Enter the value for 'A': ";
 	int a;
+	int a;
 	cin >> a;
 
 	cout << "Enter the value for 'B': ";
